@@ -40,6 +40,13 @@
     }
     
     /**
+     * Permite cambiar el precio del billete
+     */
+    public int setCambiarPrecioBillete(int precioBillete) {
+        return precioBillete;
+    }
+    
+    /**
      * Devuelve el precio del billete
      */
     public int getPrecioBillete() {
