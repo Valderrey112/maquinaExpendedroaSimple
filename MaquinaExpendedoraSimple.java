@@ -10,6 +10,8 @@
     private String estacionOrigen;
     // El destino del billete
     private String estacionDestino;
+    // Cantidad a restar al precio total
+    private int restarDinero;
 
     /**
      * Crea una maquina expendedora de billetes de tren con el 
@@ -24,8 +26,8 @@
         estacionDestino = "Antananarivo";
     }
     
-    public MaquinaExpendedoraSimple(int precioBillete, String lugarDestino) {
-        precioBillete = precioBillete;
+    public MaquinaExpendedoraSimple(int costeBillete, String lugarDestino) {
+        precioBillete = costeBillete;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "Leon";
@@ -42,8 +44,16 @@
     /**
      * Permite cambiar el precio del billete
      */
-    public int setCambiarPrecioBillete(int precioBillete) {
+    public int setCambiarPrecioBillete(int costeBillete) {
+        precioBillete = costeBillete;
         return precioBillete;
+    }
+    
+    /**
+     * Reducir coste billete
+     */
+    public void getReducirCoste(int restarDinero) {
+    
     }
     
     /**
