@@ -33,6 +33,13 @@
     }
 
     /**
+     * Conocer total dinero acumulado
+     */
+    public int getDineroAcumulado() {
+        return totalDineroAcumulado;
+    }
+    
+    /**
      * Devuelve el precio del billete
      */
     public int getPrecioBillete() {
