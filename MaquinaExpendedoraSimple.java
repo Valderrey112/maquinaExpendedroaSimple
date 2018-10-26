@@ -53,7 +53,7 @@
      * Reducir coste billete
      */
     public void getReducirCoste(int restarDinero) {
-    
+        precioBillete = precioBillete - restarDinero;
     }
     
     /**
