@@ -57,6 +57,13 @@
     }
     
     /**
+     * Extrae todo el dinero de la maquina
+     */
+    public void getExtraerDinero() {
+        totalDineroAcumulado = 0;
+    }
+    
+    /**
      * Devuelve el precio del billete
      */
     public int getPrecioBillete() {
